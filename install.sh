@@ -3,7 +3,7 @@ SCRIPT_DIR=$(
     cd "$(dirname "$0")" || exit
     pwd
 )
-# sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y fish unar unzip build-essential curl file git
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get install -y fish unar unzip build-essential curl file git
 sudo cp "$SCRIPT_DIR"/wsl.conf /etc
 cp "$SCRIPT_DIR"/.clang-format ~/
 
